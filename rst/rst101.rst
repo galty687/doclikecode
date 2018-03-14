@@ -1,2 +1,20 @@
-# reStructuredText简介
+=======================
+reStructuredText简介
+======================
 跟其他轻量级标记语言一样，可以做到人和机器都比较好读。
+
+参考资源：
+
+* http://docutils.sourceforge.net/docs/user/rst/quickstart.html
+* http://docutils.sourceforge.net/0.6/docs/user/rst/quickref.html
+* http://docutils.sourceforge.net/docs/ref/rst/directives.html
+* http://zh-sphinx-doc.readthedocs.io/en/latest/rest.html
+
+
+
+
+
+
+
+
+

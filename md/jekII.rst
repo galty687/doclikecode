@@ -15,6 +15,14 @@ Github Pages 托管静态页面
 #. https://pages.github.com/#user-site
 
 
+具体步骤：
+-------------------
+#. 在Github上创建新的repo，例如明明为 demo-single-page
+#. 通过Github Desktop同步到本地文件夹 demo-single-page
+#. 将从CATTP平台上下载的单页面网站，复制到本地文件夹 demo-single-page 中，并push到远程repo
+
+
+
 
 使用Jekyll Now迅速部署自己的博客
 =============================================

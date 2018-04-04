@@ -31,8 +31,8 @@ Github Pages 托管静态页面
 #. 在_config.yml中配置自己的个人信息 
 #. 修改jekyll的 `主题 <https://jekyll-themes.com>`_
 
-更多帮助信息：https://www.smashingmagazine.com/2016/02/content-modeling-with-jekyll/
-Jekyll Documentation Theme: http://idratherbewriting.com/documentation-theme-jekyll//#
+* 更多帮助信息：https://www.smashingmagazine.com/2016/02/content-modeling-with-jekyll/
+* Jekyll Documentation Theme: http://idratherbewriting.com/documentation-theme-jekyll//#
 
 完整版jekyll安装
 =============================

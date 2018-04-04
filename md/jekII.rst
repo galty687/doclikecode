@@ -27,7 +27,7 @@ Github Pages 托管静态页面
 使用Jekyll Now迅速部署自己的博客
 =============================================
 
-#. Fork Jekyll-now主题，并将repo改为 yourusername@github.io
+#. Fork Jekyll-now主题，并将repo改为 yourusername.github.io
 #. 在_config.yml中配置自己的个人信息 
 #. 修改jekyll的 `主题 <https://jekyll-themes.com>`_
 

@@ -17,7 +17,7 @@ Github Pages 托管静态页面
 
 具体步骤：
 -------------------
-#. 在Github上创建新的repo，例如明明为 demo-single-page
+#. 在Github上创建新的repo，例如命名为 demo-single-page
 #. 通过Github Desktop同步到本地文件夹 demo-single-page
 #. 将从CATTP平台上下载的单页面网站，复制到本地文件夹 demo-single-page 中，并push到远程repo
 

@@ -28,5 +28,12 @@ Github Pages 托管静态页面
 完整版jekyll安装
 =============================
 
-安装：sudo gem install jekyll bundler
+#. 安装jekyll环境：sudo gem install jekyll bundler
+#. 创建新博客：jekyll new my-awesome-site
+#. 启动网站。进入网站文件夹后，运行：bundle exec jekyll serve
+#. 浏览网站。localhost:4000
+
+更多帮助信息：https://jekyllrb.com
+
+
 

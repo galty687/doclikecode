@@ -13,7 +13,7 @@ reStructuredText简介
 
 
 工具：
-* 预览。http://rst.ninjs.org
+#. 预览。http://rst.ninjs.org
 
 
 

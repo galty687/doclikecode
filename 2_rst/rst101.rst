@@ -13,8 +13,9 @@ reStructuredText简介
 
 
 工具：
-#. 预览工具：http://rst.ninjs.org
-#. 预览工具2：
+
+* 预览工具：http://rst.ninjs.org
+
 
 
 

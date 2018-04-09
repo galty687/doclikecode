@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Docs like Code's documentation!
+轻量级技术文档解决方案
 ==========================================
 
 .. toctree::
@@ -38,7 +38,7 @@ Welcome to Docs like Code's documentation!
 
 
 
-Indices and tables
+索引和表格
 ==================
 
 * :ref:`genindex`

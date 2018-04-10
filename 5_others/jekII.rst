@@ -45,4 +45,33 @@ Github Pages 托管静态页面
 更多帮助信息：https://jekyllrb.com
 
 
+添加内容并发布新网站
+==============================
+#. 使用Markdown语法创建任意内容，按照 YYYY-MM-DD-Title 的格式命名
+#. 将上方创建的Markdown文件，保存在 my-awesome-site/_posts中
+#. 在Terminal中运行 jekyll build，jekyll将发布网站，并将静态内容存储在 _site 文件夹中
+
+
+
+修改发布主题
+=============================
+主题网站地址：
+----------------------
+
+* http://jekyllthemes.org
+* https://github.com/jekyllbootstrap
+
+
+安装基于gem的主题
+------------------------
+#. 在 ./Gemfile中增加 gem "jekyll-theme-awesome"
+#. 安装主题。bundle install
+#. 在 _config.yml 中修改主题为 theme: jekyll-theme-awesome
+#. 编译网站 bundle exec jekyll serve
+
+* 官方步骤：https://jekyllrb.com/docs/themes/#installing-a-theme
+* 主题介绍：https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+.. note::
+    ./Gemfile 可以添加多个主题，但是_config.yml只能以一种主题发布
 

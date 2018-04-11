@@ -9,6 +9,7 @@ Jekyll帮助页面示例:
 * `circleci帮助文档 <https://circleci.com/docs/2.0/>`_ , `源代码 <https://github.com/circleci/circleci-docs>`_
 
 行业实践：
+
 * `开源项目openstack的文档 https://docs.openstack.org/doc-contrib-guide/index.html`_
 
 课程演示任务：

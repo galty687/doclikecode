@@ -13,13 +13,15 @@ Jekyll帮助页面示例:
 
 Github Pages 托管静态页面
 =====================================
-#. 创建html页面
+#. 下载CATTP平台中的个人单页面压缩包
+#. 在Github中新建一个repo
 #. 将html页面托管在repo中
 
 漂亮的单页面帮助文档
 
 #. https://pages.github.com/#user-site
 
+其他参考教程：`Creating and Hosting a Personal Site on GitHub <http://jmcglone.com/guides/github-pages/>`_
 
 具体步骤：
 -------------------

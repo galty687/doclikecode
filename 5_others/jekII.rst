@@ -2,9 +2,9 @@
 Markdown+Jekyll+Github Pages
 =============================
 
-Jekyll帮助页面示例
+Jekyll帮助页面示例:
 
-.. _GitHub Official Teaching Materials: https://services.github.com/workflow-consultation
+* `GitHub Official Teaching Materials <https://services.github.com/workflow-consultation>`_
 
 
 课程演示任务：

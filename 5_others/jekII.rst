@@ -4,8 +4,9 @@ Markdown+Jekyll+Github Pages
 
 Jekyll帮助页面示例:
 
-* `GitHub Official Teaching Materials <https://services.github.com/workflow-consultation>`_
-*
+* `GitHub Official Teaching Materials <https://services.github.com/workflow-consultation>`_ , `源代码 <https://github.com/github/training-kit>`_
+* ` beegit 帮助文档 <http://help.beegit.com>`_ , `源代码 <https://github.com/beegit/help.beegit.com>`_
+* `circleci帮助文档 <https://circleci.com/docs/2.0/>`_ `源代码 <https://github.com/circleci/circleci-docs>`_
 
 
 课程演示任务：

@@ -44,9 +44,10 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: 其他工具链条
+   :caption: 其他工具链
 
    5_others/jekII.rst
+   5_others/jekyll-theme
 
 
 

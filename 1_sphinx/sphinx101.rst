@@ -1,7 +1,6 @@
 =====================
 Sphinx快速入门
-====================
-
+=====================
 :date: 2018/04/12
 :author: 高志军
 
@@ -80,7 +79,7 @@ Windows系统
 修改主题
 ===================
 #. 打开 *source* 文件夹中的conf.py，并找到主题配置行 html_theme = 'alabaster'
-#. 从内置主题中挑选需要的主题，如Nature，将其改为 html_theme = 'bizstyle'
+#. 从内置主题中挑选需要的主题，如 bizstyle，将其改为 html_theme = 'bizstyle'
 #. 重新运行发布命令后，则可得到新主题的样式的帮助文档
 
 .. note::
@@ -98,7 +97,7 @@ Windows系统
 
     pip install sphinx_rtd_theme
 
-安装之后，再按照上述步骤，将 ``conf.py`` 中的主题行，修改为html_theme = 'sphinx_rtd_theme'，再运行sphinx-build命令重新发布即可。
+安装之后，再按照上述步骤，将 ``conf.py`` 中的主题行，修改为html_theme = 'sphinx_rtd_theme'，再运行 ``sphinx-build`` 命令重新发布即可。
 
 实现帮助文档官网可访问
 ==========================

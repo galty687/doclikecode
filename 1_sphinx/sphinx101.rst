@@ -24,6 +24,7 @@ Windows系统
 ------------------
 #. 需要首先安装pip，可参考 `pip <http://pip-cn.readthedocs.io/en/latest/installing.html>`_。
 #. 运行如下代码
+
     .. code-block :: python
 
         pip install Sphinx
@@ -38,11 +39,17 @@ Windows系统
 #. 新建成功后，则会得到如图所示的文件夹结构
 
 .. image:: images/sphinx-dir.png
+    :height: 100px
+    :width: 200 px
+    :scale: 50 %
+    :alt: sphinx安装后的目录结构
+    :align: right
+
 
 
 往项目中添加内容
 ============================
-#. 浏览至 source 文件夹，并在其根目录下创建新文件夹demo
+#. 浏览至 *source* 文件夹，并在其根目录下创建新文件夹demo
 #. 在上方demo文件夹中，新建test.rst文件，并在其中输入如下内容：
 
 ::
@@ -55,6 +62,12 @@ Windows系统
 #. 打开source文件中的 index.rst，将test.rst的文件添加至目录中，具体如下：
 
 .. image:: images/add-toctree.png
+    :height: 100px
+    :width: 200 px
+    :scale: 50 %
+    :alt: 添加内容至目录
+    :align: right
+
 
 
 #. 在Terminal中运行编译命令

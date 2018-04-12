@@ -93,7 +93,7 @@ Windows系统
 安装ReadtheDoc同款主题
 ===========================
 
-如果喜欢`readthedocs.org <https://docs.readthedocs.io/en/latest/getting_started.html>`_ 的主题，可以按照如下方式安装
+如果喜欢 `readthedocs.org <https://docs.readthedocs.io/en/latest/getting_started.html>`_ 的主题，可以按照如下方式安装
 
 .. code-block:: python
 
@@ -103,12 +103,12 @@ Windows系统
 
 实现帮助文档官网可访问
 ==========================
-可直接将build文件夹中的文件，托管至github，即可实现公网访问。
+执行sphinx-build命令后，sphinx会将rst的内容，发布为静态网站。只需将build文件夹中的文件，托管至github，即可实现公网访问。
 
 
-由ReadtheDoc执行发布命令
+由ReadtheDocs执行发布命令
 ===============================
-每次更新后，都需执行 sphinx-build 命令，非常麻烦，这个工作可以由ReadTheDoc平台完成。
+每次更新后，都需执行 sphinx-build 命令，并重新上传，较为麻烦。这个工作可以由ReadTheDocs平台完成。
 
 #. 注册ReadTheDoc账号
 #. 将Github账号关联到ReadtheDoc

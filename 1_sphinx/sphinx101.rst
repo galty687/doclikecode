@@ -1,6 +1,6 @@
-================
-Sphinx快速入门[*]_
-================
+=====================
+Sphinx快速入门 [*]_
+====================
 :date: 2018/04/12
 :author: 高志军
 
@@ -41,9 +41,9 @@ Windows系统
 .. image:: images/sphinx-dir.png
     :height: 100px
     :width: 200 px
-    :scale: 50 %
+    :scale: 100 %
     :alt: sphinx安装后的目录结构
-    :align: right
+    :align: left
 
 
 
@@ -64,9 +64,9 @@ Windows系统
     .. image:: images/add-toctree.png
         :height: 100px
         :width: 200 px
-        :scale: 50 %
+        :scale: 100 %
         :alt: 添加内容至目录
-        :align: right
+        :align: left
 
 
 
@@ -75,18 +75,18 @@ Windows系统
     .. code-block :: python 
         sphinx-build -b html source build
 
-#. 编译成功的话，在build文件夹中则有刚才发布的网站
+#. 编译成功的话，在*build*文件夹中则有刚才发布的网站
 
 
 
 修改主题
 ===================
-#. 打开 source中的conf.py，并找到主题配置行 html_theme = 'alabaster'
+#. 打开 *source*文件夹中的conf.py，并找到主题配置行 html_theme = 'alabaster'
 #. 从内置主题中挑选需要的主题，如Nature，将其改为 html_theme = 'bizstyle'
-#. 重新运行发布命令后，则可得到新主题的
+#. 重新运行发布命令后，则可得到新主题的样式的帮助文档
 
 .. note::
-    Sphinx内置主题的样式可见：http://www.sphinx-doc.org/en/master/theming.html#using-a-theme
+    Sphinx内置主题的样式可见：http://www.sphinx-doc.org/en/master/theming.html#using-a-theme。还可以安装其他主题，或者按照需要制作自己的主题。
 
 
 
@@ -94,16 +94,16 @@ Windows系统
 安装ReadtheDoc同款主题
 ===========================
 
-如果喜欢wwww.readthedoc.org的主题，可以按照如下方式安装
+如果喜欢`readthedocs.org <https://docs.readthedocs.io/en/latest/getting_started.html>`_ 的主题，可以按照如下方式安装
 
 .. code-block:: python
 
     pip install sphinx_rtd_theme
 
-安装之后，再按照上述步骤，修改为html_theme = 'sphinx_rtd_theme'，再重新发布即可。
+安装之后，再按照上述步骤，将conf.py中的主题行，修改为html_theme = 'sphinx_rtd_theme'，再重新发布即可。
 
-发布网站
-======================
+实现帮助文档官网可访问
+==========================
 可直接将build中的文件，托管至github，即可公网访问
 
 

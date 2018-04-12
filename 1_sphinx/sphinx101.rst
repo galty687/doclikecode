@@ -41,7 +41,6 @@ Windows系统
 .. image:: images/sphinx-dir.png
     :height: 200px
     :width: 400 px
-    :scale: 100 %
     :alt: sphinx安装后的目录结构
     :align: left
 
@@ -65,7 +64,6 @@ Windows系统
     .. image:: images/add-toctree.png
         :height: 200px
         :width: 400 px
-        :scale: 100 %
         :alt: 添加内容至目录
         :align: left
 

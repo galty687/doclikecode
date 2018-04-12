@@ -43,7 +43,7 @@ Windows系统
     :width: 400 px
     :scale: 100 %
     :alt: sphinx安装后的目录结构
-    :align: center
+    :align: left
 
 
 
@@ -67,7 +67,7 @@ Windows系统
         :width: 400 px
         :scale: 100 %
         :alt: 添加内容至目录
-        :align: center
+        :align: left
 
 
 
@@ -82,7 +82,7 @@ Windows系统
 
 修改主题
 ===================
-#. 打开 *source*文件夹中的conf.py，并找到主题配置行 html_theme = 'alabaster'
+#. 打开 *source* 文件夹中的conf.py，并找到主题配置行 html_theme = 'alabaster'
 #. 从内置主题中挑选需要的主题，如Nature，将其改为 html_theme = 'bizstyle'
 #. 重新运行发布命令后，则可得到新主题的样式的帮助文档
 

@@ -10,6 +10,8 @@ Sphinx是一个静态网页发布工具，可将rST和md文件，发布为各类
 
 Mac系统
 ----------------
+在Terminal中运行如下代码
+
     .. code-block:: python
 
         pip install Sphinx
@@ -18,7 +20,7 @@ Mac系统
 
 Windows系统
 ------------------
-#. 首先安装pip，可参考：
+#. 需要首先安装pip，可参考 `pip <http://pip-cn.readthedocs.io/en/latest/installing.html>`_。
 #. 运行如下代码
      .. code-block :: python
 

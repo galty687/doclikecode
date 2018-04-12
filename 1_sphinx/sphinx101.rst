@@ -43,7 +43,8 @@ Windows系统
     :width: 400 px
     :scale: 100 %
     :alt: sphinx安装后的目录结构
-    :align: left
+    :align: center
+
 
 
 
@@ -66,7 +67,7 @@ Windows系统
         :width: 400 px
         :scale: 100 %
         :alt: 添加内容至目录
-        :align: left
+        :align: center
 
 
 

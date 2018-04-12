@@ -39,8 +39,8 @@ Windows系统
 #. 新建成功后，则会得到如图所示的文件夹结构
 
 .. image:: images/sphinx-dir.png
-    :height: 100px
-    :width: 200 px
+    :height: 200px
+    :width: 400 px
     :scale: 100 %
     :alt: sphinx安装后的目录结构
     :align: left
@@ -62,8 +62,8 @@ Windows系统
 #. 打开source文件中的 index.rst，将test.rst的文件添加至目录中，具体如下：
 
     .. image:: images/add-toctree.png
-        :height: 100px
-        :width: 200 px
+        :height: 200px
+        :width: 400 px
         :scale: 100 %
         :alt: 添加内容至目录
         :align: left

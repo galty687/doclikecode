@@ -116,6 +116,14 @@ Windows系统
 
 更多内容参见ReadtheDocs官方文档：https://docs.readthedocs.io/en/latest/getting_started.html
 
+**高阶内容**
+* 自定义主题
+* 制作主题
+* 发布为PDF等其他样式
+
+预习：
+* HTML，CSS
+* Jinjia 模板语言
 
 **参考资料**
 

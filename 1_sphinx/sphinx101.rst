@@ -22,15 +22,15 @@ Windows系统
 ------------------
 #. 需要首先安装pip，可参考 `pip <http://pip-cn.readthedocs.io/en/latest/installing.html>`_。
 #. 运行如下代码
-     .. code-block :: python
+    .. code-block :: python
 
         pip install Sphinx
 
 
 
-快速新建项目（以Mac系统为例，Window也是类似
+快速新建项目（以Mac系统为例，Window系统类似）
 ======================================================
-#. 在桌面上创建一个文件夹，并命名为`sphinx-demo`
+#. 在桌面上创建一个文件夹，并命名为 *sphinx-demo*
 #. 在Terminal中浏览至上述文件夹，并运行命令： sphinx-quickstart
 #. 在对话框式的选择中，如果Y/N，则选Y，如果询问配置，直接复制[]中的内容，如[.rst]，则填写.rst
 #. 新建成功后，则会得到如图所示的文件夹结构

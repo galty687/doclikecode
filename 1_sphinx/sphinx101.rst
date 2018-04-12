@@ -67,7 +67,7 @@ Windows系统
         :alt: 添加至首页目录
         
         
-#. 在Terminal中运行如下编译命令 ``sphinx-build -b html source build``
+#. 在Terminal中运行编译命令 ``sphinx-build -b html source build``
 
 #. 编译成功的话，在 *build* 文件夹中则有刚才发布的网站
 

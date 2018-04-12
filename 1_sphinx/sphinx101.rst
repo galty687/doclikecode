@@ -117,8 +117,8 @@ Windows系统
 更多内容参见官方文档：https://docs.readthedocs.io/en/latest/getting_started.html
 
 
-参考资料
-------------------
+**参考资料**
+
 [Sphinx官方教程]: http://www.sphinx-doc.org/en/master/usage/quickstart.html
 
 

@@ -1,5 +1,5 @@
 ================
-Sphinx快速入门
+Sphinx快速入门[*]_
 ================
 :date: 2018/04/12
 :author: 高志军
@@ -7,7 +7,7 @@ Sphinx快速入门
 Sphinx是一个静态网页发布工具，可将rST和md文件，发布为各类常见的用户帮助如联机帮助，用户手册等。
 
 
-安装Sphinx [*]_
+安装Sphinx 
 =====================
 
 Mac系统
@@ -50,7 +50,7 @@ Windows系统
 往项目中添加内容
 ============================
 #. 浏览至 *source* 文件夹，并在其根目录下创建新文件夹demo
-#. 在上方demo文件夹中，新建test.rst文件，并在其中输入如下内容：
+#. 在上方*demo*文件夹中，新建test.rst文件，并在其中输入如下内容：
 
 ::
 
@@ -61,12 +61,12 @@ Windows系统
 
 #. 打开source文件中的 index.rst，将test.rst的文件添加至目录中，具体如下：
 
-.. image:: images/add-toctree.png
-    :height: 100px
-    :width: 200 px
-    :scale: 50 %
-    :alt: 添加内容至目录
-    :align: right
+    .. image:: images/add-toctree.png
+        :height: 100px
+        :width: 200 px
+        :scale: 50 %
+        :alt: 添加内容至目录
+        :align: right
 
 
 

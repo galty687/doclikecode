@@ -34,7 +34,7 @@ Windows系统
 快速新建项目（以Mac系统为例，Window系统类似）
 ======================================================
 #. 在桌面上创建一个文件夹，并命名为 *sphinx-demo*
-#. 在Terminal中浏览至上述文件夹，并运行命令： sphinx-quickstart
+#. 在Terminal中浏览至上述文件夹，并运行命令： ``sphinx-quickstart``
 #. 在对话框式的选择中，Y/N的选项，选Y；如果询问配置，直接复制[]中的内容，如[.rst]，则填写.rst
 #. 新建成功后，则会得到如图所示的文件夹结构
 
@@ -42,7 +42,7 @@ Windows系统
     :height: 200px
     :width: 400 px
     :alt: sphinx安装后的目录结构
-    :align: left
+    
 
 
 
@@ -65,7 +65,7 @@ Windows系统
         :height: 200px
         :width: 400 px
         :alt: 添加内容至目录
-        :align: left
+        
 
 
 
@@ -99,11 +99,11 @@ Windows系统
 
     pip install sphinx_rtd_theme
 
-安装之后，再按照上述步骤，将conf.py中的主题行，修改为html_theme = 'sphinx_rtd_theme'，再运行sphinx-build命令重新发布即可。
+安装之后，再按照上述步骤，将 ``conf.py`` 中的主题行，修改为html_theme = 'sphinx_rtd_theme'，再运行sphinx-build命令重新发布即可。
 
 实现帮助文档官网可访问
 ==========================
-执行sphinx-build命令后，sphinx会将rst的内容，发布为静态网站。只需将build文件夹中的文件，托管至github，即可实现公网访问。
+执行sphinx-build命令后，sphinx会将rst的内容，发布为静态网站。只需将 *build* 文件夹中的文件，托管至github，即可实现公网访问。
 
 
 由ReadtheDocs执行发布命令

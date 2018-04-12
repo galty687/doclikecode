@@ -1,6 +1,8 @@
 ================
 Sphinx快速入门
 ================
+:date: 2018/04/12
+:author: 高志军
 
 Sphinx是一个静态网页发布工具，可将rST和md文件，发布为各类常见的用户帮助如联机帮助，用户手册等。
 
@@ -85,6 +87,10 @@ Windows系统
     pip install sphinx_rtd_theme
 
 安装之后，再按照上述步骤，修改为html_theme = 'sphinx_rtd_theme'，再重新发布即可。
+
+发布网站
+======================
+可直接将build中的文件，托管至github，即可公网访问
 
 
 

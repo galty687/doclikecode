@@ -62,9 +62,9 @@ Windows系统
 #. 打开source文件中的 index.rst，将test.rst的文件添加至目录中，具体如下：
 
     .. image:: images/add-toctree.png
-    :height: 200px
-    :width: 400 px
-    :alt: 添加至首页目录
+        :height: 200px
+        :width: 400 px
+        :alt: 添加至首页目录
         
         
 #. 在Terminal中运行如下编译命令
@@ -72,7 +72,7 @@ Windows系统
     .. code-block:: python
         sphinx-build -b html source build
 
-#. 编译成功的话，在*build*文件夹中则有刚才发布的网站
+#. 编译成功的话，在 *build* 文件夹中则有刚才发布的网站
 
 
 
@@ -101,20 +101,20 @@ Windows系统
 
 实现帮助文档官网可访问
 ==========================
-执行sphinx-build命令后，sphinx会将rst的内容，发布为静态网站。只需将 *build* 文件夹中的文件，托管至github，即可实现公网访问。
+执行 ``sphinx-build`` 命令后，sphinx会将rst的内容，发布为静态网站。只需将 *build* 文件夹中的文件，托管至github，即可实现公网访问。
 
 
 由ReadtheDocs执行发布命令
 ===============================
-每次更新后，都需执行 sphinx-build 命令，并重新上传至Github，较为麻烦。这个工作可以由ReadTheDocs平台自动化完成。
+每次更新后，都需执行 ``sphinx-build`` 命令，并重新上传至Github，较为麻烦。这个工作可以由ReadTheDocs平台自动化完成。
 
-#. 注册ReadTheDoc账号
-#. 将Github账号关联到ReadtheDoc
+#. 注册ReadTheDocs账号
+#. 将Github账号关联到ReadtheDocs
 #. 将source文件中的内容，上传至github中的某个repo中
 #. 选择github的相应ropo，自动创建webhook
 #. 后续每次源文件内容有变化后，ReadtheDoc均可以自动发布最新的版本
 
-更多内容参见官方文档：https://docs.readthedocs.io/en/latest/getting_started.html
+更多内容参见ReadtheDocs官方文档：https://docs.readthedocs.io/en/latest/getting_started.html
 
 
 **参考资料**

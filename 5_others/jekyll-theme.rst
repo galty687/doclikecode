@@ -38,3 +38,8 @@
 在 github pages 上添加主题
 --------------------------------
 官方教程：https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/
+
+
+
+制作Jekyll主题
+---------------------------------

@@ -1,5 +1,5 @@
 =====================
-Sphinx快速入门 [*]_
+Sphinx快速入门
 ====================
 :date: 2018/04/12
 :author: 高志军
@@ -100,11 +100,11 @@ Windows系统
 
     pip install sphinx_rtd_theme
 
-安装之后，再按照上述步骤，将conf.py中的主题行，修改为html_theme = 'sphinx_rtd_theme'，再重新发布即可。
+安装之后，再按照上述步骤，将conf.py中的主题行，修改为html_theme = 'sphinx_rtd_theme'，再运行sphinx-build命令重新发布即可。
 
 实现帮助文档官网可访问
 ==========================
-可直接将build中的文件，托管至github，即可公网访问
+可直接将build文件夹中的文件，托管至github，即可实现公网访问。
 
 
 由ReadtheDoc执行发布命令
@@ -113,14 +113,16 @@ Windows系统
 
 #. 注册ReadTheDoc账号
 #. 将Github账号关联到ReadtheDoc
-#. 选择github的ropo，自动创建webhook
+#. 将source文件中的内容，上传至github中的某个repo中
+#. 选择github的相应ropo，自动创建webhook
 #. 后续每次源文件内容有变化后，ReadtheDoc均可以自动发布最新的版本
 
+更多内容参见官方文档：
 
 
 参考资料
 
-.. [*] http://www.sphinx-doc.org/en/master/usage/quickstart.html
+[Sphinx官方教程]: http://www.sphinx-doc.org/en/master/usage/quickstart.html
 
 
 

@@ -45,7 +45,8 @@ Windows系统
 #. 浏览至 source 文件夹，并在其根目录下创建新文件夹demo
 #. 在上方demo文件夹中，新建test.rst文件，并在其中输入如下内容：
 
-    .. code-block :: rst
+::
+
         =======================
         这是Sphinx的测试
         =======================
@@ -91,6 +92,16 @@ Windows系统
 发布网站
 ======================
 可直接将build中的文件，托管至github，即可公网访问
+
+
+由ReadtheDoc执行发布命令
+===============================
+每次更新后，都需执行 sphinx-build 命令，非常麻烦，这个工作可以由ReadTheDoc平台完成。
+
+#. 注册ReadTheDoc账号
+#. 将Github账号关联到ReadtheDoc
+#. 选择github的ropo，自动创建webhook
+#. 后续每次源文件内容有变化后，ReadtheDoc均可以自动发布最新的版本
 
 
 

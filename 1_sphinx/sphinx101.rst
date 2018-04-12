@@ -108,7 +108,7 @@ Windows系统
 
 由ReadtheDocs执行发布命令
 ===============================
-每次更新后，都需执行 sphinx-build 命令，并重新上传，较为麻烦。这个工作可以由ReadTheDocs平台完成。
+每次更新后，都需执行 sphinx-build 命令，并重新上传至Github，较为麻烦。这个工作可以由ReadTheDocs平台自动化完成。
 
 #. 注册ReadTheDoc账号
 #. 将Github账号关联到ReadtheDoc
@@ -116,11 +116,11 @@ Windows系统
 #. 选择github的相应ropo，自动创建webhook
 #. 后续每次源文件内容有变化后，ReadtheDoc均可以自动发布最新的版本
 
-更多内容参见官方文档：
+更多内容参见官方文档：https://docs.readthedocs.io/en/latest/getting_started.html
 
 
 参考资料
-
+------------------
 [Sphinx官方教程]: http://www.sphinx-doc.org/en/master/usage/quickstart.html
 
 

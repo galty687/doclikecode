@@ -38,11 +38,18 @@ Windows系统
 #. 在对话框式的选择中，Y/N的选项，选Y；如果询问配置，直接复制[]中的内容，如[.rst]，则填写.rst
 #. 新建成功后，则会得到如图所示的文件夹结构
 
-.. image:: images/sphinx-dir.png
-    :height: 200px
-    :width: 400 px
-    :alt: sphinx安装后的目录结构
-    
+::
+
+    .
+    ├── build
+    ├── make.bat
+    ├── Makefile
+    └── source
+        ├── conf.py
+        ├── index.rst
+        ├── _static
+        └── _templates
+
 
 
 

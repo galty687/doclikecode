@@ -24,6 +24,7 @@
    :caption: 第二章：Sphinx
 
    1_sphinx/sphinx101.rst
+   1_sphinx/pdf-rendering.rst
 
 .. toctree::
    :maxdepth: 2

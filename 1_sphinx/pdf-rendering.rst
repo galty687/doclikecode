@@ -14,10 +14,17 @@ rinoh插件安装
 
 如果已经有的话，在Terminal中直接运行 ``pip install rinohtype``，即可安装
 
-发布 PDF
+发布单个PDF
 ==================
 #. 在Termina中浏览至桌面上source文件夹，
 #. 运行：``rinoh index.rst`` 即可发布为PDF
+
+发布项目
+====================
+
+配置conf.py
+-------------------
+
 
 
 参考资料：

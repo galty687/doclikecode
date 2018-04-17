@@ -31,6 +31,12 @@
 
    2_rst/rst101.rst
    
+.. toctree::
+    :maxdepth: 2
+    :caption: 第四章：Sphinx主题
+
+    4_theming/rtd-theme
+    4_theming/jinja
 
 .. toctree::
    :maxdepth: 2

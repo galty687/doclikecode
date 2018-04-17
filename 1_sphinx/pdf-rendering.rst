@@ -7,11 +7,19 @@ Sphinx输出为PDF有多种方式，例如依赖LaTex技术，现将rst转为lat
 
 rinoh插件安装
 ==================
-依赖：docutils 和 recommonmark ，可以通过pip安装。
+首先通过pip，安装依赖库：
 
-如果已经有的话，在Terminal中运行 ``pip install rinohtype``
+* docutils
+* recommonmark ，
 
-发布
+如果已经有的话，在Terminal中直接运行 ``pip install rinohtype``，即可安装
+
+发布 PDF
 ==================
 #. 在Termina中浏览至桌面上source文件夹，
 #. 运行：``rinoh index.rst`` 即可发布为PDF
+
+
+参考资料：
+
+[1]. https://github.com/brechtm/rinohtype

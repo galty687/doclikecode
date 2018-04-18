@@ -1,5 +1,5 @@
 ==================
-输出为 PDF
+使用rinoh输出 PDF
 ==================
 
 Sphinx输出为PDF有多种方式，例如依赖LaTex技术，现将rst转为latex，在转为PDF。现在也有多种其他方案，如Rinoh或rst2pdf等。本节将主要介绍rinoh插件。。

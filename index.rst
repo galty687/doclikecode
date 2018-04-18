@@ -25,6 +25,7 @@
 
    1_sphinx/sphinx101.rst
    1_sphinx/pdf-rendering.rst
+   1_sphinx/pdf-render-latex.rst
 
 .. toctree::
    :maxdepth: 2

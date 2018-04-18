@@ -37,3 +37,6 @@ rtd 主题由Read the Doc团队开发，主题美观大方。本小节将以此�
 * ``navigation_depth`` 整数。最大深度为4层，设置为 -1 表示不限制深度。
 
 更多说明，可见 `官方文档 <https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html>`_
+
+
+PDF输出：http://media.readthedocs.org/pdf/doclikecode/latest/doclikecode.pdf

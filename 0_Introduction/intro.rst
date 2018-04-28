@@ -7,3 +7,13 @@
 #. 代码与文档有机结合。
 #. 软件工程师也可以贡献部分文档
 #. 低成本。
+
+
+Amazon jekyll doc 
+===========================
+
+
+
+
+亚马逊的文档也是基于这一套方式开发，代码的可以在 `github repo <https://github.com/amzn/jekyll-doc-project>`_  中找到。
+

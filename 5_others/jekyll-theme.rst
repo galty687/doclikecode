@@ -33,6 +33,13 @@
 
 * 典型左中右三栏结构：`Minimal Mistakes <https://mmistakes.github.io/minimal-mistakes>`_
 * 经典帮助文档：`Jekyll Documentation Them <http://idratherbewriting.com/documentation-theme-jekyll/>`_
+* `Jekyll Doc Theme <https://aksakalli.github.io/jekyll-doc-theme/>`_
+
+
+商业模板
+---------------------
+https://doks.themejack.com/blue/getting-started/
+
 
 
 在 github pages 上添加主题

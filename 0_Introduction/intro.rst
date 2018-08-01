@@ -13,7 +13,18 @@ Amazon jekyll doc
 ===========================
 
 
-
-
 亚马逊的文档也是基于这一套方式开发，代码的可以在 `github repo <https://github.com/amzn/jekyll-doc-project>`_  中找到。
+
+
+
+
+其他几个基于Jekyll开源的文档主题：
+
+* http://bruth.github.io/jekyll-docs-template/
+* https://github.com/clojurewerkz/docslate
+* https://github.com/tomjoht/documentation-theme-jekyll
+* https://github.com/stitchdata/docs#stitch-documentation
+
+
+
 

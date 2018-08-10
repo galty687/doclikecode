@@ -26,5 +26,5 @@ Amazon jekyll doc
 * https://github.com/stitchdata/docs#stitch-documentation
 
 
-
+更多网站，请见：https://cloudcannon.com/jekyll/2015/06/12/whos-using-jekyll.html
 

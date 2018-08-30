@@ -47,6 +47,8 @@
 
    2_rst/rst101.rst
    2_rst/rst-publish.rst
+   2_rst/rst-quick-ref.md
+
    
 .. toctree::
     :maxdepth: 2

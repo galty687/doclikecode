@@ -152,8 +152,11 @@ htmlhelp_basename = 'DocslikeCodedoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
+import os
 
-latex_elements = {
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+if on_rtd:
+    latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #'papersize': 'letterpaper',
     # The font size ('10pt', '11pt' or '12pt').
@@ -175,6 +178,16 @@ latex_elements = {
     \begin{CJK}{UTF8}{gbsn}
     \AtEndDocument{\end{CJK}}
     ''',
+    }
+else:
+    latex_elements = {
+        'papersize' : 'a4paper',
+        'utf8extra' : '',
+        'inputenc'  : '',
+        'babel'     : r'''\usepackage[english]{babel}''',
+        'preamble' : r'''
+        \usepackage{ctex}
+        ''',
     }
 
 # -- Options for manual page output ---------------------------------------

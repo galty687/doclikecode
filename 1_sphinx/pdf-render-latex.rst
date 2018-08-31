@@ -42,7 +42,7 @@ XeTeX 也是TEX排版的一种，支持Unicode而且也支持现代字体技术�
 
 因为 readthedocs 上只有pdflatex引擎，如果需要同时在readthedocs和本地化都能顺利编译中文pdf的话，可以在 conf.py中添加如下配置：
 
-.. code-block::
+.. code-block:: python
 
     import os
 

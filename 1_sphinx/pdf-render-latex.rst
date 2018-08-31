@@ -37,7 +37,7 @@ XeTeX 也是TEX排版的一种，支持Unicode而且也支持现代字体技术�
 
 
 #. make latex
-#. 使用Texlive 打开进行上一步编译得到 *.tex文件，选择 XeLaTex 引擎
+#. 使用Texshop 打开进行上一步编译得到 *.tex文件，选择 **XeLaTex** 引擎
 #. 点击Typeset 即可得到中文版。
 
 因为 readthedocs 上只有pdflatex引擎，如果需要同时在readthedocs和本地化都能顺利编译中文pdf的话，可以在 conf.py中添加如下配置：
